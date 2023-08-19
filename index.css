@@ -1,70 +1,70 @@
 body {
-    margin: 0;
-    width: 550px;
-height: 285px;
-flex-shrink: 0;
-background: #6943FF;
-}
-
-header {
-
-color: #FFF;
-text-align: center;
-font-family: Inter;
-font-size: 28px;
-font-style: normal;
-font-weight: 800;
-line-height: 38px; /* 135.714% */
-letter-spacing: -0.84px;
-}
-
-.display {
-  box-sizing: border-box;
-  width: 117px;
-height: 83px;
-flex-shrink: 0;
-border-radius: 5px;
-border: 2px solid #B295FF;
-margin-left: auto;
-    margin-right: auto;
-    text-align: center;
-    padding-left: 50px;
+    background: #6943FF;
     
-}
-
-button {
+  }
+  .p1 {
+       background: #6943FF;
+     color: #FFF;
+  text-align: center;
+  font-family: Inter;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 38px; /* 135.714% */
+  letter-spacing: -0.84px;
+  }
+  input {
+      padding: 5px;
+      background: #6943FF;
+      border-color: white;
+      color: white;
+      border: 1px solid #FBFBFB;
+     width: 65px;
+  height: 65px;
+  color: white;
+  text-align: center;
+  }
+  
+  button {
+   margin: auto;
+  background: #FFF;
+  border: none;
+  border-radius: 5px;
+  
+  /* shadow/sm */
+  box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.05);
+  }
+  
+  .p11 {
+      
+  }
+  
+  .top {
+     background: #1F2937;
+    box-sizing: border-box;
     
-}
-.paragraphs {
-    width: 500px;
-height: 108.573px;
-flex-shrink: 0;
-border-radius: 4.681px 0px 0px 0px;
-background: #273549;
-}
-h2 {
-    width: 346px;
-height: 25px;
-flex-shrink: 0;
-    color: #CCC1FF;
-text-align: center;
-font-family: Inter;
-font-size: 20px;
-font-style: normal;
-font-weight: 600;
-line-height: 20px; /* 100% */
-}
-h3 {
-    width: 346px;
-height: 25px;
-flex-shrink: 0;
-color: #FFF;
-text-align: center;
-
-/* text-sm/leading-5/font-normal */
-font-family: Inter;
-font-size: 14px;
-font-style: normal;
-font-weight: 400;
-line-height: 20px; /* 142.857% */
-}
+  }
+  
+  
+  .one {
+   width: 300px;
+    height: 100px;
+    padding: 50px;
+    border: 1px solid red;
+    box-sizing: border-box;
+  
+  }
+  .two {
+      width: 300px;
+    height: 100px;
+    padding: 50px;
+    border: 1px solid red;
+    box-sizing: border-box;
+  }
+  .three {
+       width: 300px;
+    height: 100px;
+    padding: 50px;
+    border: 1px solid red;
+    box-sizing: border-box;
+  }
