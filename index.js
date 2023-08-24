@@ -2,19 +2,22 @@
 1 meter = 3.281 feet
 1 liter = 0.264 gallon
 1 kilogram = 2.204 pound
-
-round down to 3 decimal places
-convert all when Convert is clicked..
 */
 
+const convertF = document.getElementById("convertF")
 
-/*
-1 meter = 3.281 feet
-1 liter = 0.264 gallon
-1 kilogram = 2.204 pound
-*/
+let inputNum = document.getElementById("inputNum")
+const meter2ft = document.getElementById("meter2Ft")
+const liter2gal = document.getElementById("liter2Gal")
+const kilo2lb = document.getElementById("kilo2Lb")
 
 
-function convert() {
-    console.log("in the works")
-}
+//meter2ft.addEventListener("click",  function () {
+    
+  //  let calc = 
+    
+  //  meter2ft.textContent = `<p>${inputNum} liters = hello </p>`;
+//})
+       
+//       20 meters = 65.616 feet | 20 feet = 6.096 meters
+   // })
