@@ -1,70 +1,67 @@
 body {
-    background: #6943FF;
-    
-  }
-  .p1 {
-       background: #6943FF;
-     color: #FFF;
-  text-align: center;
-  font-family: Inter;
-  font-size: 28px;
-  font-style: normal;
-  font-weight: 800;
-  line-height: 38px; /* 135.714% */
-  letter-spacing: -0.84px;
-  }
-  input {
-      padding: 5px;
-      background: #6943FF;
-      border-color: white;
-      color: white;
-      border: 1px solid #FBFBFB;
-     width: 65px;
-  height: 65px;
+  margin: 0;
+}
+.top {
+  background: #6943FF;
+  padding-bottom: 1.3em;
+}
+
+.bottom {
+  background: #F4F4F4;
+}
+.metrics {
   color: white;
   text-align: center;
-  }
-  
-  button {
-   margin: auto;
-  background: #FFF;
-  border: none;
+  font-size: 1.5em;
+}
+
+.boxer {
+  background: white;
+  border: white 1em solid;
+  border-radius: 5em;
+  margin: .5em;
+}
+
+h1 {
+  text-align: center;
+  font-size: 1em;
+}
+
+p {
+  text-align: center;
+  font-size: .8em;
+
+}
+
+input {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  color: white;
+  background: #6943FF ;
+  width: 117px;
+height: 83px;
+top: 101px;
+left: 217px;
+border-radius: 5px;
+border: 1.5px white solid;
+text-align: center;
+border-color: white;
+font-size: 4.5em;
+}
+
+button {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: .6em;
+  background: white;
   border-radius: 5px;
-  
-  /* shadow/sm */
-  box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.05);
-  }
-  
-  .p11 {
-      
-  }
-  
-  .top {
-     background: #1F2937;
-    box-sizing: border-box;
-    
-  }
-  
-  
-  .one {
-   width: 300px;
-    height: 100px;
-    padding: 50px;
-    border: 1px solid red;
-    box-sizing: border-box;
-  
-  }
-  .two {
-      width: 300px;
-    height: 100px;
-    padding: 50px;
-    border: 1px solid red;
-    box-sizing: border-box;
-  }
-  .three {
-       width: 300px;
-    height: 100px;
-    padding: 50px;
-    border: 1px solid red;
-    box-sizing: border-box;
-  }
+  border: none;
+  padding: .1em 2.2em;
+}
+.end {
+  border: 1em white solid;
+  border-radius: 5em;
+  background: white;
+}
