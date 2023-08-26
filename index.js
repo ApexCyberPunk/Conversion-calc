@@ -11,13 +11,18 @@ const meter2ft = document.getElementById("meter2Ft")
 const liter2gal = document.getElementById("liter2Gal")
 const kilo2lb = document.getElementById("kilo2Lb")
 
+convertF.addEventListener('click', function() {
+    
+    meter2ft.innerHTML = `${inputNum.value} meters = ${(inputNum.value * 3.281).toFixed(3)} feet | ${inputNum.value} feet = ${(inputNum.value / 3.281).toFixed(3)} meters` 
+    
+    liter2gal.innerHTML =  `${inputNum.value} liters = ${(inputNum.value * 0.264172).toFixed(3)} gallons |  ${inputNum.value} gallons = ${(inputNum.value / 0.264172).toFixed(3)} liters `
+     
+      kilo2lb.innerHTML = `${inputNum.value} kilos = ${(inputNum.value*2.20462).toFixed(3)} pounds |  ${inputNum.value} pounds = ${(inputNum.value/2.20462).toFixed(3)} kilos`
+     
+     
+    
+    
+});
 
-//meter2ft.addEventListener("click",  function () {
-    
-  //  let calc = 
-    
-  //  meter2ft.textContent = `<p>${inputNum} liters = hello </p>`;
-//})
-       
-//       20 meters = 65.616 feet | 20 feet = 6.096 meters
-   // })
+
+
